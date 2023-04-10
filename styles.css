@@ -105,7 +105,6 @@ a:hover {
 @media screen and (min-width: 768px) {
     .gallery img {
         width: calc(16.666% - 20px);
-        /* Відступ для зазорів між елементами */
     }
 }
 
