@@ -91,23 +91,6 @@ a:hover {
     padding-top: 15px;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 68px;
-    margin: -10px;
-}
-
-.gallery img {
-    width: calc(33.33% - 20px);
-}
-
-@media screen and (min-width: 768px) {
-    .gallery img {
-        width: calc(16.666% - 20px);
-    }
-}
-
 .photogalery {
     padding-top: 40px;
 }
@@ -129,7 +112,39 @@ a:hover {
 .photo-heading {
     text-align: center;
     margin-bottom: 25px;
+}
 
+.news-heading {
+    padding-top: 35px;
+    padding-bottom: 8px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.1rem;
+    background-color: black;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.gallery a:hover img {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.gallery a:active img {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 
