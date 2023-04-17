@@ -27,6 +27,10 @@ a:hover {
     color: #949494;
 }
 
+a:active {
+    color: #949494;
+}
+
 .text-me {
    text-align: center;
    margin-top: 15px; 
@@ -91,7 +95,7 @@ a:hover {
     padding-top: 15px;
 }
 
-.photogalery {
+.photogalery-one {
     padding-top: 40px;
 }
 
@@ -102,16 +106,19 @@ a:hover {
 .galery-heading {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .photo-text {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 19px;
 }
 
 .photo-heading {
     text-align: center;
     margin-bottom: 25px;
+    font-size: 32px;
 }
 
 .news-heading {
@@ -146,6 +153,112 @@ a:hover {
     opacity: 0.8;
     cursor: pointer;
 }
+
+.text {
+    font-style: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.read-more-button {
+    display: block;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-link {
+    margin-bottom: 16px !important;
+}
+
+.card-link:hover {
+    color: #808080;
+}
+
+.card-link:active {
+    color: #808080;
+}
+
+.video-link {
+    position: relative;
+    display: inline-block;
+}
+
+.video-link:hover .hover-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.video-link:hover .hover-text {
+    opacity: 1;
+}
+
+.video-link img {
+    width: 100%;
+    height: auto;
+}
+
+.video-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4d3bfe;
+    border-radius: 1em;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+.hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 0;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.video-one {
+    padding-top: 76px;
+}
+
+.video-heading {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.video-paragaph {
+    text-align: center;
+    font-size: 19px;
+}
+
+.tex-container {
+    padding-top: 160px;
+}
+
+
+
 
 
 
