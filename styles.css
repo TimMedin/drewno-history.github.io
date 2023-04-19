@@ -106,19 +106,19 @@ a:active {
 .galery-heading {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .photo-text {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .photo-heading {
     text-align: center;
     margin-bottom: 25px;
-    font-size: 32px;
+    font-size: 31px;
 }
 
 .news-heading {
@@ -243,19 +243,22 @@ a:active {
 }
 
 .video-heading {
-    font-size: 32px;
+    font-size: 29px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .video-paragaph {
     text-align: center;
-    font-size: 19px;
+    margin-bottom: 27px;
+    font-size: 17px;
 }
 
 .tex-container {
     padding-top: 160px;
 }
+
+
 
 
 
