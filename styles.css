@@ -306,6 +306,20 @@ a:active {
     }
 }
 
+.obval-img {
+    margin-bottom: 20px;
+}
+
+.line {
+    border-top: 1px solid gray;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.obval-paragraph {
+    text-align: center;
+}
+
 
 
 
