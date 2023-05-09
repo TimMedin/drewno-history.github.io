@@ -317,7 +317,8 @@ a:active {
 }
 
 .obval-paragraph {
-    text-align: center;
+    margin: 0 auto;
+    width: 370px;
 }
 
 
