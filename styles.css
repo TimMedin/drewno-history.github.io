@@ -290,7 +290,20 @@ a:active {
 }
 
 .news-img-box {
-    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .obval-img {
+        width: 390px;
+    }
+}
+
+@media (min-width: 768px) {
+    .obval-img {
+        width: 1150px;
+    }
 }
 
 
