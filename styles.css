@@ -283,6 +283,16 @@ a:active {
     align-items: center;
 }
 
+.obval-nav {
+    font-size: 17px;
+    padding-left: 8px;
+    color:#808080;
+}
+
+.news-img-box {
+    padding-left: 10px;
+}
+
 
 
 
