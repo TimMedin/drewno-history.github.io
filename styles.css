@@ -32,6 +32,7 @@ a:active {
 }
 
 .text-me {
+   margin-bottom: 0;
    text-align: center;
    margin-top: 15px; 
 }
@@ -256,6 +257,30 @@ a:active {
 
 .tex-container {
     padding-top: 160px;
+}
+
+.btn-primary:hover{
+    transition: 370ms;
+    transform: scale(1.1);
+}
+
+.obval-section {
+    padding-top: 12px;
+}
+
+.obval-heading {
+    padding-left: 10px;
+}
+
+.obval-text {
+    padding-left: 10px;
+    color:#808080;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
