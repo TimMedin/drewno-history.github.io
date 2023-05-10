@@ -7,3 +7,5 @@
       button.textContent = hiddenText.classList.contains("hidden") ? "Читати більше" : "Згорнути";
     });
   });
+
+ 

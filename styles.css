@@ -201,10 +201,6 @@ a:active {
     opacity: 1;
 }
 
-.video-link img {
-    width: 100%;
-    height: auto;
-}
 
 .video-text {
     position: absolute;
@@ -302,7 +298,7 @@ a:active {
 
 @media (min-width: 768px) {
     .obval-img {
-        width: 1150px;
+        width: 950px;
     }
 }
 
@@ -318,8 +314,41 @@ a:active {
 
 .obval-paragraph {
     margin: 0 auto;
-    width: 380px;
+    margin-top: 23px;
+    margin-bottom: 30px;
 }
+
+@media (max-width: 767px) {
+    .obval-paragraph {
+        width: 380px;
+    }
+}
+
+@media (min-width: 768px) {
+    .obval-paragraph {
+        width: 950px;
+    }
+}
+
+@media (min-width: 768px) {
+    .news-info-text {
+        padding-left: 190px;
+    }
+}
+
+
+.dodat-heading {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-news {
+    margin-top: 80px;
+}
+
+
+
 
 
 
