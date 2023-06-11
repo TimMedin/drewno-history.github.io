@@ -347,6 +347,21 @@ a:active {
     margin-top: 80px;
 }
 
+@media (min-width: 768px) {
+    .hero-heading {
+        font-size: 47px;
+    }
+
+    .hero-text {
+        font-size: 28px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 18rem;
+    }
+}
+
+
 
 
 
